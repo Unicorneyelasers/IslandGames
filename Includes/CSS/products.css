@@ -1,0 +1,110 @@
+body {
+    background-color: #222629;
+}
+
+/****************************************
+            Main Content
+****************************************/
+
+#mainContent {
+    margin: 15px 0;
+}
+
+#productsList {
+    padding: 25px 0;
+    color: #fff;
+    background-color: #515050;
+    width: fit-content;
+    margin: auto;
+    border-style: groove;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*
+    productsList Table
+*/
+
+#productsList table {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#productsList table, #productsList th, #productsList td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#productsList tr:hover {
+    background-color: #222629;
+}
+
+#productsList table img {
+    width: 100px;
+}
+
+#productsList .tableImage {
+    text-align: left;
+}
+
+#productsList .tableTitle {
+    text-align: left;
+}
+
+/****************************************
+            Genre Table
+****************************************/
+
+#sortingTab {
+    margin-top: 20px;
+    height: fit-content;
+    color: #fff;
+    background-color: #515050;
+    width: fit-content;
+    border-style: groove;
+    text-align: center;
+    margin-left: auto;
+}
+
+#sortingTab table {
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#sortingTab table, #sortingTab th, #sortingTab td {
+    padding: 5px;
+}
+
+.genreButton {
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    border: none;
+    background-color: #515050;
+    color: #fff;
+}
+
+.genreButton:hover {
+    background-color: #222629;
+}
+
+.tableTitle {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.product-label {
+    color: white;
+    margin: 0.5em;
+    font-weight: 100;
+}
+
+#searchbar {
+    padding: 10px;
+    margin-left: 20px;
+}

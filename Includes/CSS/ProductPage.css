@@ -1,0 +1,33 @@
+
+.carousel-slide {
+    height: 40%;
+    width: fit-content;
+    text-align: center;
+    background-color: #383838;
+    color: #383838;
+}
+
+.card-text-desc {
+    height: 300px;
+    width: fit-content;
+    background-color: #515050;
+    margin: 10% auto;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    color: #F5F5F5;
+}
+
+.card-title-product{
+    padding: 3%;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.carousel-inner img{
+    height: 40%;
+    width: fit-content;
+    text-align: center;
+    background-color: #383838;
+    color: #383838;
+}

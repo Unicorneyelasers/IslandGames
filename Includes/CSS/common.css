@@ -1,0 +1,209 @@
+/*
+    ****************************************************************************************************
+                                    Navbar
+    ****************************************************************************************************
+*/
+
+#navbar-style {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFB74D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*
+    ****************************************************************************************************
+                                    Body
+    ****************************************************************************************************
+*/
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #333;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #FFB74D;
+    border-color: #FFB74D;
+}
+
+.btn.btn-success {
+    color: black;
+    background-color: #FFB74D;
+    border-color: #FFB74D;
+}
+
+.btn btn-success {
+    color: black;
+    background-color: #FFB74D;
+    border-color: #FFB74D;
+}
+
+/*
+
+*/
+
+.help-block {
+    color: red;
+}
+
+/*
+    ****************************************************************************************************
+                                    Footer
+    ****************************************************************************************************
+*/
+
+.card {
+    background-color: #383838;
+    color: white;
+    margin-top: 50px;
+    border: none
+}
+
+.card-body {
+    background-color: #383838;
+}
+
+.head1 {
+    font-weight: 900;
+    font-size: 30px
+}
+
+.bdr {
+    border-bottom: 1.5px solid #FFB74D;
+    width: 65px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.card-footer {
+    justify-content: space-between;
+    border: none;
+    background-color: #383838;
+    border-bottom: 0.5px solid #9E9E9E
+}
+
+.footer-right>i {
+    margin-left: 15px
+}
+
+.fa-hand-holding-usd {
+    color: #FFB74D
+}
+
+.fa-handshake {
+    color: #FFB74D
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 1.75rem
+}
+
+.learn-more {
+    color: #FFB74D
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+}
+
+.fa-3x {
+    color: #FFB74D
+}
+
+.card-content {
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+.card-content>p {
+    color: #9E9E9E
+}
+
+.heading {
+    position: relative;
+    top: 75px
+}
+
+.follow-text {
+    color: #9E9E9E
+}
+
+.navbar-brand {
+    font-size: x-large;
+    color: #FFB74D;
+}
+
+a {
+    color: #FFB74D;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*
+    Admin sidebar
+*/
+#sidebarBrandingImage {
+    width: 150px;
+}
+
+.sidebarItem {
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    font-size: 15px;
+    padding-left: 5px;
+    cursor: pointer;
+    background-color: #4f5561;
+}
+
+.sidebarActive, .sidebarItem:hover {
+    background-color: #3b414b;
+}
+
+.collapsibleIcon {
+    float: right;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.sidebarDropdownItem {
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 10px 0;
+    padding-left: 45px;
+    cursor: pointer;
+}
+
+.sidebarDropdownItem:hover {
+    background-color: #555;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #222629;
+}
+
+h1 {
+    margin-bottom: .5em;
+    padding-left: 0;
+}
+
+.jumbotron {
+    background-color: #333333;
+    color: white;
+}
+
+table {
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+.card-body-register {
+    background-color: #515050;
+    padding: 5%;
+    width: fit-content;
+    margin: auto;
+    border-style: groove;
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+}
+
+.prodQuant {
+    text-align: center!important;
+}
+
+.prodName {
+    text-align: Left!important;
+}

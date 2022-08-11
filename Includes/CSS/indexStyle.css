@@ -1,0 +1,116 @@
+/*
+    ****************************************************************************************************
+                                    Body
+    ****************************************************************************************************
+*/
+
+.carousel-item img {
+    height: 20%;
+    width: 65%;
+}
+
+.carousel-item {
+    text-align: center;
+    background-color: #383838;
+    color: #383838;
+}
+
+#filterSection {
+    padding: 25px 25px;
+}
+
+#gameDisplay {
+    background-color: #333;
+}
+
+#filterGameSection {
+    text-align: left;
+}
+
+#filterDropdownSection {
+    color: #FFB74D;
+    text-align: right;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #FFB74D;
+    border-color: #FFB74D;
+}
+
+.btn.btn-success {
+    color: black;
+    background-color: #FFB74D;
+    border-color: #FFB74D;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    height: fit-content;
+}
+
+.card-text-desc {
+    height: 300px;
+    width: fit-content;
+    background-color: #515050;
+    margin: 10% auto;
+    font: 16px/26px Georgia, Garamond, Serif;
+    overflow: auto;
+    color: #F5F5F5;
+}
+
+.card-body-product{
+    background-color: #515050!important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*
+    productsList Table
+*/
+
+#productsList {
+    padding: 25px 0;
+    color: #fff;
+    background-color: #515050;
+    width: 70%;
+    margin: auto;
+    border-style: groove;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#productsList table {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#productsList table, #productsList th, #productsList td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#productsList tr:hover {
+    background-color: #222629;
+}
+
+#productsList table img {
+    width: 100px;
+}
+
+#productsList .tableImage {
+    text-align: left;
+}
+
+#productsList .tableTitle {
+    text-align: left;
+}
+
+.btn{
+    color: black!important;
+    background-color: #FFB74D!important;
+    border-color: #FFB74D!important;
+}

@@ -1,0 +1,210 @@
+body {
+    color: #fff;
+    background-color: #333;
+}
+
+#contentWrapper {
+    height: 780px;
+}
+
+/************************************
+                Sidebar
+************************************/
+
+#sidebar {
+    text-align: left;
+    width: fit-content;
+    margin-top: 15vh;
+    min-width: fit-content;
+    margin-left: 43px;
+    color: #fff;
+    background-color: #515050;
+    border-style: groove;
+}
+
+.sidebarItem {
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.sidebarHeader {
+    font-size: 40px;
+    padding: 35px 20px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #555;
+    height: 175px;
+    margin-bottom: -1px;
+}
+
+.sidebarTitle {
+    font-size: 30px;
+    margin: 1px;
+    padding: 30px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    height: 100px;
+}
+
+.sidebarDropdownItem {
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 10px 0;
+    padding-left: 45px;
+    cursor: pointer;
+}
+
+.sidebarDropdownItem:hover {
+    background-color: #555;
+    color: #FFB74D;
+}
+
+/************************************
+            Main Content
+************************************/
+
+#content {
+    padding: 15px;
+    height: fit-content;
+    color: #fff;
+    background-color: #515050;
+    width: 80%;
+    min-width: 1000px;
+    margin: auto;
+    border-style: groove;
+    text-align: center;
+}
+
+#mainContent {
+    width: calc(100% - 350px);
+    margin-top: 56px;
+    height: 1100px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333;
+}
+
+#backgroundMain {
+    width: calc(100% - 350px);
+    margin-top: 56px;
+    height: 1100px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: lightgray;
+    z-index: -100;
+}
+
+.contentItem {
+    text-align: center;
+    padding: 15px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.contentItemHeader {
+    text-align: center;
+}
+
+.contentImage {
+    width: 225px;
+    border-radius: 100%;
+}
+
+/*
+    Admin add new product
+*/
+
+#formWrapper {
+    color: #fff;
+}
+
+#searchButtonWrapper {
+    text-align: left;
+    margin-left: 100px;
+}
+
+#searchButton {
+    margin-left: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #007bff;
+}
+
+#submitButtonWrapper {
+    text-align: center;
+}
+
+#submitButton {
+    margin: 25px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    color: black;
+    background-color: #FFB74D;
+    border-color: #FFB74D;
+}
+
+#innerWrapper {
+    margin-left: 50px;
+}
+
+#innerWrapper label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+}
+
+.inputItem {
+    width: 300px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.inputDiv {
+    margin: 30px 0;
+}
+
+/*
+    Table
+*/
+
+table {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #222629;
+}

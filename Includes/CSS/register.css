@@ -1,0 +1,49 @@
+body {
+    background-color: #333333;
+}
+
+h1 {
+    margin-bottom: .5em;
+}
+
+.inputSection {
+    margin: 10px 0;
+    width: 100%;
+}
+
+#submit {
+    text-align: center;
+    color: #333333;
+}
+
+#loginButton {
+    border-radius: 6px !important;
+    margin-top: 15px;
+    width: fit-content;
+    padding: 11px;
+    color: #333;
+}
+
+.jumbotron {
+    background-color: #333333;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#submit {
+    padding: 7px;
+    border-radius: 9px;
+}
+
+input {
+    border-radius: 5px;
+    padding: .2em;
+}
+
+.card-body-register {
+    background-color: #515050;
+    padding: 5%;
+    width: fit-content;
+    margin: auto;
+    border-style: groove;
+}

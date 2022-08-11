@@ -1,0 +1,163 @@
+/*
+    ****************************************************************************************************
+                                    Body
+    ****************************************************************************************************
+*/
+
+h1 {
+    font-family: 'Roboto Mono', monospace!important;
+}
+
+body {
+    background-color: #212529;
+    font-family: 'Roboto Mono', monospace!important;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#5ee7df), to(#b490ca));
+    background-image: -webkit-linear-gradient(bottom, #5ee7df 0%, #b490ca 100%);
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+.product-label {
+    color: white;
+    margin: 0.5em;
+    font-weight: 100;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#mainContent {
+    font-family: 'Roboto Mono', monospace!important;
+    margin: 15px 0;
+}
+
+#cart {
+    font-family: 'Roboto Mono', monospace;
+    padding: 25px 0;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: fit-content;
+    background-color: #515050;
+    width: fit-content;
+    margin: auto;
+    border-style: groove;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#cart table {
+    font-family: 'Roboto Mono', monospace!important;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#cart table, #cart th, #cart td {
+    font-family: 'Roboto Mono', monospace!important;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart tr:hover {
+    background-color: #222629;
+}
+
+#cart table img {
+    width: 100px;
+    width: 8vw;
+}
+
+#cart .tableImage {
+    text-align: left;
+}
+
+#cart .tableTitle {
+    text-align: left;
+}
+
+.tableTitle {
+    font-family: 'Roboto Mono', monospace!important;
+    text-align: center!important;
+}
+
+#purchaseButton {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace!important;
+}
+
+.desc {
+    max-width: 35em;
+}
+
+.applyButton {
+    margin-left: 34%;
+    margin-right: 34%;
+}
+
+.confirm {
+    position: absolute;
+    margin-left: 50%;
+}
+
+#submitButtonWrapper {
+    text-align: center;
+}
+
+#submitButton {
+    margin: 25px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #FFB74D;
+}
+
+.fa-minus:before {
+    content: "\f068";
+    margin: 5px;
+}
+
+.fa-plus:before {
+    content: "\f067";
+    margin: 5px;
+}
+
+.card-body-message {
+    text-align: center;
+    min-width: fit-content;
+    width: auto;
+    padding: 2%;
+    color: #fff;
+    background-color: #515050;
+    margin: auto;
+    border-style: groove;
+}
+
+.btn.btn-success {
+    margin: 5px;
+}
+
+.card-title-charge {
+    font-size: xx-large;
+}

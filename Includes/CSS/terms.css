@@ -1,0 +1,57 @@
+body {
+    background-color: #333333;
+}
+
+h1 {
+    margin-bottom: .5em;
+}
+
+.data {
+    color: rgb(255, 255, 255);
+}
+
+.inputSection {
+    margin: 10px 0;
+    width: 100%;
+}
+
+#submit {
+    text-align: center;
+    color: #333333;
+}
+
+.h5, h5 {
+    color: yellow;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.jumbotron {
+    background-color: #333333;
+    text-align: center;
+    color: #333;
+}
+
+#submit {
+    padding: 7px;
+    border-radius: 9px;
+}
+
+input {
+    border-radius: 5px;
+    padding: .2em;
+}
+
+.card-body-register {
+    background-color: #515050;
+    padding: 5%;
+    width: fit-content;
+    margin: auto;
+    border-style: groove;
+}
+
+.inputDiv ul {
+    background-color: white!important;
+}
